@@ -1,0 +1,32 @@
+.container {
+  @apply flex flex-col md:flex-row bg-slate-100 h-full justify-between relative selection:bg-emerald-300;
+}
+
+.image {
+  @apply flex bg-slate-800 w-[80%] max-w-lg h-full p-2 justify-center items-center rounded-r-full border-r-[0.75rem] border-emerald-600 select-none;
+}
+
+.image_content {
+  @apply flex w-[80%] md:w-full;
+}
+
+.main_content {
+  @apply flex flex-col h-full px-10 py-10 items-center justify-center pb-52;
+  @apply m-auto;
+}
+
+.header {
+  @apply font-bold text-5xl text-slate-800 text-center;
+}
+
+.description {
+  @apply pt-2 max-w-xl text-center text-slate-700;
+}
+
+.header_accent {
+  @apply text-emerald-600;
+}
+
+.text_accent {
+  @apply text-emerald-600 font-semibold;
+}
