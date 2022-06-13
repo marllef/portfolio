@@ -25,7 +25,7 @@ export const Hero = () => {
 
         <span className={styles.description}>
           <p>
-            Estou no mundo do desenvolvimento de software a mais de{" "}
+            Faço parte do mundo de desenvolvimento de software a mais de{" "}
             <span className={styles.text_accent}>5 anos</span> e atualmente
             trabalho como{" "}
             <span className={styles.text_accent}>

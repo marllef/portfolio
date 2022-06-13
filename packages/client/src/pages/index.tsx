@@ -1,6 +1,7 @@
 import { HeaderBar } from "~/components/Header/HeaderBar";
 import { Hero } from "~/components/Hero";
 import { Section } from "~/components/Section";
+import { Projetos } from "~/templates/Projetos";
 
 const Home = () => {
   return (
@@ -10,7 +11,9 @@ const Home = () => {
         <Hero />
       </Section>
       <Section>
-        
+        <div className="relative w-full h-full bg-slate-800">
+          <Projetos />
+        </div>
       </Section>
     </div>
   );

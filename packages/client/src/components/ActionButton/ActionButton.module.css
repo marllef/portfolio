@@ -1,0 +1,6 @@
+.container {
+  @apply flex justify-center items-center p-2  rounded;
+  @apply bg-emerald-600  hover:bg-emerald-700;
+  @apply text-slate-100 uppercase text-xs font-semibold;
+  @apply active:animate-pulse;
+}
