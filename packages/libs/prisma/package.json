@@ -2,7 +2,7 @@
   "name": "@sigma/prisma",
   "version": "1.0.0",
   "description": "Prisma Lib for Monorepo",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "Marllef H. A. Freitas",
   "license": "MIT",
   "private": true,
