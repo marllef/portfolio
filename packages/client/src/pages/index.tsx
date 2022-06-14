@@ -2,6 +2,7 @@ import { HeaderBar } from "~/components/Header/HeaderBar";
 import { Hero } from "~/components/Hero";
 import { Section } from "~/components/Section";
 import { Projetos } from "~/templates/Projetos";
+import { prisma, Repository } from "@sigma/prisma";
 
 const Home = () => {
   return (

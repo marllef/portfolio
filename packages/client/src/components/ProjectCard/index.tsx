@@ -1,14 +1,19 @@
+import { Repository } from "~/types";
 import { ActionButton } from "../ActionButton";
 import { Divider } from "../Divider";
 import styles from "./ProjectCard.module.css";
 
-export const ProjectCard = () => {
+interface Props {
+  repo: Repository;
+}
+
+export const ProjectCard = ({ repo }: Props) => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        <div className={styles.title}>Project Title</div>
+        <div className={styles.title}>{repo.name}</div>
         <Divider />
-        <p>Description</p>
+        <p>{repo.description}</p>
       </div>
       <div className="mt-2">
         <ActionButton href="#projetos">Ver Projeto</ActionButton>
