@@ -11,6 +11,6 @@
   html,
   body {
     @apply font-montserrat p-0 overflow-hidden;
-    @apply selection:bg-emerald-500;
+    @apply selection:bg-emerald-500 scroll-smooth;
   }
 }
