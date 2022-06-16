@@ -1,5 +1,5 @@
-import { PrismaClient, Repository as PRepository } from "@prisma/client";
+import { PrismaClient } from "@prisma/client";
 
-export type Repository = PRepository;
+export * from "prisma/prisma-client";
 
 export const prisma = new PrismaClient();

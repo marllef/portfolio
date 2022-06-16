@@ -11,12 +11,9 @@
     ]
   },
   "scripts": {
+    "prisma": "yarn workspace @sigma/prisma prisma",
     "client": "yarn workspace @sigma/client",
     "server": "yarn workspace @sigma/server",
-    "client:dev": "yarn workspace @sigma/client dev",
-    "server:dev": "yarn workspace @sigma/server start:dev"
-  },
-  "devDependencies": {
-    "prisma": "^3.15.1"
+    "client:dev": "yarn workspace @sigma/client dev"
   }
 }
