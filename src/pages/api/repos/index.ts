@@ -1,9 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { prisma } from "@sigma/prisma";
+import { prisma } from "~/configs/PrismaConfig";
 import { AxiosError } from "axios";
 import type { NextApiRequest, NextApiResponse } from "next";
-import { github } from "~/configs/GithubAPI";
-import { RepoGithubAPI } from "~/types/GithubAPIRepos";
 
 type APIError = {
   error: string;
