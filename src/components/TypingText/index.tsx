@@ -38,5 +38,5 @@ export const TypingText = ({
     }, speed);
   }, [pointer]);
 
-  return <div className="text-lg italic h-5 my-5 text-center">Eu sou {text.slice(0, pointer)}</div>;
+  return <div className="text-lg italic my-5 text-center">Eu sou {text.slice(0, pointer)}</div>;
 };
