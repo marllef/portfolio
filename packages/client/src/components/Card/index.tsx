@@ -7,7 +7,7 @@ interface Props {
   repo: Repository;
 }
 
-export const ProjectCard = ({ repo }: Props) => {
+export const Card = ({ repo }: Props) => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>

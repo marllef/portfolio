@@ -1,7 +1,7 @@
 import { Repository } from "@sigma/prisma";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { ProjectCard as Card } from "~/components/ProjectCard";
+import { Card as Card } from "~/components/Card";
 
 interface Props {
   repos: Repository[];
