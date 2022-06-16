@@ -1,4 +1,4 @@
-import { Repository } from "@sigma/prisma";
+import { Repository } from "@prisma/client";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { HeaderBar } from "~/components/Header/HeaderBar";

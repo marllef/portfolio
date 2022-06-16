@@ -1,4 +1,4 @@
-import { Repository } from "@sigma/prisma";
+import { Repository } from "@prisma/client";
 import { useEffect, useState } from "react";
 import { Card as Card } from "~/components/Card";
 

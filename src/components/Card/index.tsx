@@ -1,4 +1,4 @@
-import { Repository } from "@sigma/prisma";
+import { Repository } from "@prisma/client";
 import { ActionButton } from "../ActionButton";
 import { Divider } from "../Divider";
 import styles from "./ProjectCard.module.css";
