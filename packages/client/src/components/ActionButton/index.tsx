@@ -8,7 +8,7 @@ interface Props {
 
 export const ActionButton = ({ children, href = "/" }: Props) => {
   return (
-    <a href={href} target="_blank" className={styles.container}>
+    <a href={href} target="_blank" rel="noreferrer" className={styles.container}>
       {children}
     </a>
   );
