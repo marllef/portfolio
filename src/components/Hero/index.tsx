@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import { Button } from "../Button";
 import { SocialTag } from "../SocialTag";
 import { TypingText } from "../TypingText";
@@ -10,6 +11,9 @@ export const Hero = () => {
     "Técnico em Redes de Computadores",
     "Bacharel em Ciência e Tecnologia",
   ];
+
+  const router = useRouter();
+
   return (
     <div className={styles.container}>
       <div className={styles.image}>
@@ -37,7 +41,9 @@ export const Hero = () => {
         </span>
 
         <div className="pt-12">
-          <Button>Ver Portfólio</Button>
+          <Button onClick={() => router.push("/#projetos")}>
+            Ver Portfólio
+          </Button>
         </div>
       </div>
     </div>
